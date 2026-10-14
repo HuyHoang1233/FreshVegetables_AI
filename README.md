@@ -1,7 +1,15 @@
-# 🌿 AgriTrace AI — Hệ Thống Quản Lý Chuỗi Cung Ứng Nông Sản Sạch
+<img width="1906" height="970" alt="image" src="https://github.com/user-attachments/assets/f7c3db17-2b5b-4b0d-8eb4-181c88f52f09" />
+<img width="1917" height="973" alt="image" src="https://github.com/user-attachments/assets/86fcc1a2-70f0-4158-9682-7246a1cf8343" />
+<img width="1909" height="963" alt="image" src="https://github.com/user-attachments/assets/c952bc83-f621-49d3-8164-2c1947427150" />
+<img width="1887" height="974" alt="image" src="https://github.com/user-attachments/assets/52841df6-978f-4940-906a-f846f8b364a2" />
+<img width="1902" height="979" alt="image" src="https://github.com/user-attachments/assets/22bc5ead-d561-4883-8108-4b3d70b77557" />
 
+**# 🌿 AgriTrace AI — Hệ Thống Quản Lý Chuỗi Cung Ứng Nông Sản Sạch Và Có tích hợp AI 
+**
 > Nền tảng web quản lý chuỗi cung ứng nông sản sạch tích hợp trí tuệ nhân tạo.  
 > Truy xuất nguồn gốc bằng QR Code, quản lý nông trại, kho hàng, vận chuyển và đặt hàng trực tuyến.
+
+
 
 ---
 
@@ -303,40 +311,5 @@ docker compose up -d
 
 ---
 
-## ⚙ Biến môi trường
-Tạo file `.env` từ [`.env.example`](.env.example):
-```env
-# Docker Compose
-COMPOSE_PROJECT_NAME=agritrace-ai
-APP_PORT=80
-FRONTEND_PORT=3000
-BACKEND_PORT=8080
-REDIS_PORT=6379
-
-# PostgreSQL
-POSTGRES_DB=agritrace_db
-POSTGRES_USER=your_user
-POSTGRES_PASSWORD=your_strong_password
-POSTGRES_PORT=5432
-
-# Backend
-SERVER_PORT=8080
-JWT_SECRET=your-jwt-secret-at-least-32-characters
-JWT_EXPIRATION=3600
-REFRESH_TOKEN_EXPIRATION=604800
-CORS_ALLOWED_ORIGINS=http://localhost:3000,http://localhost
-BOOTSTRAP_ADMIN_EMAIL=admin@agritrace.vn
-BOOTSTRAP_ADMIN_PASSWORD=admin_password
-BOOTSTRAP_ADMIN_NAME=Administrator
-
-# Frontend
-NEXT_PUBLIC_API_URL=/api/v1
-NEXT_PUBLIC_APP_NAME=AgriTrace AI
-```
-> ⚠️ **Lưu ý:** File `.env` chứa mật khẩu thật – KHÔNG được commit lên Git. File này đã có trong `.gitignore`.
-
----
-
-## 📄 License
-
 Đồ án tốt nghiệp © 2026 — AgriTrace AI Team
+
