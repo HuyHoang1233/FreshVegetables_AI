@@ -1,0 +1,22 @@
+# Version control and local configuration
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+
+# Build artifacts and dependencies
+**/node_modules
+**/.next
+**/target
+**/coverage
+**/*.log
+
+# IDE and OS files
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+
+# Documentation and local metadata not needed in container contexts
+.agents
